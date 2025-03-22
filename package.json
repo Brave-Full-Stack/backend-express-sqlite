@@ -1,0 +1,33 @@
+{
+  "name": "backend-project",
+  "version": "1.0.0",
+  "description": "A back-end web development project that uses Node.js, Express.js, SQLite.  We'll use cookies and JSON Web Tokens to allow for logging in, and  at the end we'll learn how to SSH into a Linux box and provision our live environment that we'll deploy to.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brave-Full-Stack/backend-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brave-Full-Stack/backend-project/issues"
+  },
+  "homepage": "https://github.com/Brave-Full-Stack/backend-project#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "better-sqlite3": "^11.7.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "marked": "^15.0.7",
+    "nodemon": "^3.1.9",
+    "sanitize-html": "^2.14.0"
+  }
+}
